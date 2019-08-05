@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="score">
+            <rule id="966338e1-cfde-4e21-861b-3a7335ff0df2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="966338e1-cfde-4e21-861b-3a7335ff0df2">
+            <param id="score"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="66f69a65-d7fa-4596-b8ad-08e837c89800">
+            <rule id="966338e1-cfde-4e21-861b-3a7335ff0df2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/Loan Validation Base/rules/ruleset variables.var" id="66f69a65-d7fa-4596-b8ad-08e837c89800"/>
+        <resource file="/Loan Validation Determination/rules/eligibilityFlow.rfl" id="966338e1-cfde-4e21-861b-3a7335ff0df2"/>
+    </resourceTable>
+</impactTables>

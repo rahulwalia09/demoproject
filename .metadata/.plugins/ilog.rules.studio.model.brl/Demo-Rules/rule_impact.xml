@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.dev.DemoOutput/answer/SETTER#0">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </vocElt>
+        <vocElt id="com.dev.DemoInput/num/GETTER#0">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </vocElt>
+        <vocElt id="com.dev.DemoInput">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </vocElt>
+        <vocElt id="com.dev.DemoOutput">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="da624d74-177a-429a-8148-e9e8bbe1de63">
+            <vocElt id="com.dev.DemoOutput/answer/SETTER#0"/>
+            <vocElt id="com.dev.DemoInput/num/GETTER#0"/>
+            <vocElt id="com.dev.DemoInput"/>
+            <vocElt id="com.dev.DemoOutput"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="output">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </param>
+        <param id="input">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="da624d74-177a-429a-8148-e9e8bbe1de63">
+            <param id="output"/>
+            <param id="input"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="08a8fa05-ee62-404a-b897-e309852ce68e">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Demo-BOM/bom/Demo-XOM_en_US.voc" id="223716a1-f36b-45cb-afcd-46c494eb9a6f">
+            <rule id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Demo-Rules/rules/Variable Set.var" id="08a8fa05-ee62-404a-b897-e309852ce68e"/>
+        <resource file="/Demo-Rules/rules/Demo.brl" id="da624d74-177a-429a-8148-e9e8bbe1de63"/>
+    </resourceTable>
+</impactTables>

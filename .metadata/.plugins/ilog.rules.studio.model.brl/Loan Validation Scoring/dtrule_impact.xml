@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="loan.Borrower/yearlyIncome/GETTER#0">
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </vocElt>
+        <vocElt id="loan.Report">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </vocElt>
+        <vocElt id="loan.Borrower">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest/duration/GETTER#0">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </vocElt>
+        <vocElt id="loan.Report/yearlyInterestRate/SETTER#0">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest/loanToValue/GETTER#0">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/getBankruptcyAge()/GETTER#0">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.LoanRequest"/>
+            <vocElt id="loan.LoanRequest/duration/GETTER#0"/>
+            <vocElt id="loan.Report/yearlyInterestRate/SETTER#0"/>
+            <vocElt id="loan.LoanRequest/loanToValue/GETTER#0"/>
+        </rule>
+        <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282">
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0"/>
+            <vocElt id="loan.Borrower/getBankruptcyAge()/GETTER#0"/>
+        </rule>
+        <rule id="59352b03-2138-4986-9347-52e771a8bb16">
+            <vocElt id="loan.Borrower/yearlyIncome/GETTER#0"/>
+            <vocElt id="loan.Borrower"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="score">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </param>
+        <param id="loan">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </param>
+        <param id="borrower">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </param>
+        <param id="report">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf">
+            <param id="loan"/>
+            <param id="report"/>
+        </rule>
+        <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282">
+            <param id="score"/>
+            <param id="borrower"/>
+        </rule>
+        <rule id="59352b03-2138-4986-9347-52e771a8bb16">
+            <param id="score"/>
+            <param id="borrower"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="66f69a65-d7fa-4596-b8ad-08e837c89800">
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </param>
+        <param id="3abc737a-ba41-4dcf-a7d1-012b9484f9f8">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Loan Validation Base/bom/model_en.voc" id="298ef717-efd8-4b46-9bfc-28f2f82612b0">
+            <rule id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+            <rule id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+            <rule id="59352b03-2138-4986-9347-52e771a8bb16"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Loan Validation Scoring/rules/computation/rate.dta" id="7c47ee41-f999-4157-b91a-be48d7e4facf"/>
+        <resource file="/Loan Validation Scoring/rules/computation/bankruptcyScore.dta" id="1e28b410-f5bd-44b4-9cb6-8f9784895282"/>
+        <resource file="/Loan Validation Scoring/rules/computation/salary2score.dta" id="59352b03-2138-4986-9347-52e771a8bb16"/>
+    </resourceTable>
+</impactTables>

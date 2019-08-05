@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="loan.LoanRequest/numberOfMonthlyPayments/GETTER#0">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Report">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Report/yearlyInterestRate/GETTER#0">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Borrower">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest/amount/GETTER#0">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+        </vocElt>
+        <vocElt id="loan.LoanUtil/getMonthlyRepayment(double,int,double)/NAVIGATION#0">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Report/monthlyRepayment/SETTER#0">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/creditScore/GETTER#0">
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f">
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0"/>
+        </rule>
+        <rule id="b1ade762-dc28-4abc-8033-e300be183560">
+            <vocElt id="loan.LoanRequest/numberOfMonthlyPayments/GETTER#0"/>
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.LoanRequest"/>
+            <vocElt id="loan.Report/yearlyInterestRate/GETTER#0"/>
+            <vocElt id="loan.LoanRequest/amount/GETTER#0"/>
+            <vocElt id="loan.LoanUtil/getMonthlyRepayment(double,int,double)/NAVIGATION#0"/>
+            <vocElt id="loan.Report/monthlyRepayment/SETTER#0"/>
+        </rule>
+        <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14">
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/creditScore/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="score">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </param>
+        <param id="loan">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </param>
+        <param id="report">
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        </param>
+        <param id="borrower">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f">
+            <param id="score"/>
+            <param id="borrower"/>
+        </rule>
+        <rule id="b1ade762-dc28-4abc-8033-e300be183560">
+            <param id="loan"/>
+            <param id="report"/>
+        </rule>
+        <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14">
+            <param id="score"/>
+            <param id="borrower"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="66f69a65-d7fa-4596-b8ad-08e837c89800">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </param>
+        <param id="3abc737a-ba41-4dcf-a7d1-012b9484f9f8">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Loan Validation Base/bom/model_en.voc" id="298ef717-efd8-4b46-9bfc-28f2f82612b0">
+            <rule id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+            <rule id="b1ade762-dc28-4abc-8033-e300be183560"/>
+            <rule id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Loan Validation Scoring/rules/computation/initialCorporateScore.brl" id="f8ebe74d-bf29-48fd-a9f4-a4b7cd124d14"/>
+        <resource file="/Loan Validation Scoring/rules/computation/repayment.brl" id="b1ade762-dc28-4abc-8033-e300be183560"/>
+        <resource file="/Loan Validation Scoring/rules/computation/neverBankruptcy.brl" id="2ee02474-d7ae-4410-beba-d3b55a6df36f"/>
+    </resourceTable>
+</impactTables>

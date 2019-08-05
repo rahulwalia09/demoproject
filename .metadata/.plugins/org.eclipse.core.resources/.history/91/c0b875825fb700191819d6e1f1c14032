@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="Demo_DO" targetRuleProjectName="Demo-Rules">
+  <name>Demo_DO</name>
+  <uuid>75835719-c95b-44f7-a834-bf28065e124d</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="Demo_DO_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../Demo-Rules#3329a385-3857-4326-949b-d9843561f9b4"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

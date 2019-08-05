@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.dev.Response/eligibility/SETTER#0">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </vocElt>
+        <vocElt id="com.dev.Request/age/GETTER#0">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </vocElt>
+        <vocElt id="com.dev.Request">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </vocElt>
+        <vocElt id="com.dev.Response">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378">
+            <vocElt id="com.dev.Response/eligibility/SETTER#0"/>
+            <vocElt id="com.dev.Request/age/GETTER#0"/>
+            <vocElt id="com.dev.Request"/>
+            <vocElt id="com.dev.Response"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="request">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </param>
+        <param id="response">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378">
+            <param id="request"/>
+            <param id="response"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="a137dbb6-ea77-44ae-8cae-d2ac2e40615d">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Dummy-BOM/bom/Dummy-XOM_en_US.voc" id="d5000dc4-2974-46d8-860f-c3da8a06fb8c">
+            <rule id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Dummy-Rules/rules/Set Eligibility.brl" id="bdc38e9c-f649-4a55-8f94-3129097cf378"/>
+        <resource file="/Dummy-Rules/rules/VariableSet.var" id="a137dbb6-ea77-44ae-8cae-d2ac2e40615d"/>
+    </resourceTable>
+</impactTables>

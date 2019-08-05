@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="loan.Report">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </vocElt>
+        <vocElt id="loan.Report/validData/PREDICATE#0">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </vocElt>
+        <vocElt id="loan.Report/approved/PREDICATE#0">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Report/validData/PREDICATE#0"/>
+            <vocElt id="loan.Report/approved/PREDICATE#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="report">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62">
+            <param id="report"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="3abc737a-ba41-4dcf-a7d1-012b9484f9f8">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Loan Validation Base/bom/model_en.voc" id="298ef717-efd8-4b46-9bfc-28f2f82612b0">
+            <rule id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Loan Validation Base/rules/parameters.var" id="3abc737a-ba41-4dcf-a7d1-012b9484f9f8"/>
+        <resource file="/Loan Validation Service/rules/loanvalidation.rfl" id="f5dc0b49-f2a1-467d-abb0-059d6e0d5c62"/>
+    </resourceTable>
+</impactTables>

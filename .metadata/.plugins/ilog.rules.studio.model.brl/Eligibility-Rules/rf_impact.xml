@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.dev.eligibility.EligibilityResponse">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse/customerName/SETTER#0">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="93bd8027-0390-4162-86cf-7210f210d972">
+            <vocElt id="com.dev.eligibility.EligibilityResponse"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse/customerName/SETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="eligibilityRequest">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </param>
+        <param id="eligiblilityResponse">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="93bd8027-0390-4162-86cf-7210f210d972">
+            <param id="eligibilityRequest"/>
+            <param id="eligiblilityResponse"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="c373c3ab-470d-4d16-9802-aeb807e70e93">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Eligibility-BOM/bom/Eligibility-XOM_en_US.voc" id="29af5c38-6bcf-497c-910f-4fd3e0ebef77">
+            <rule id="93bd8027-0390-4162-86cf-7210f210d972"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Eligibility-Rules/rules/VariableSet.var" id="c373c3ab-470d-4d16-9802-aeb807e70e93"/>
+        <resource file="/Eligibility-Rules/rules/EligibilityRuleflow.rfl" id="93bd8027-0390-4162-86cf-7210f210d972"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;DemoInput.java&apos; to &apos;Demo-XOM/src/com.dev&apos;&#x0D;&#x0A;- Original project: &apos;Demo-XOM&apos;&#x0D;&#x0A;- Destination element: &apos;Demo-XOM/src/com.dev&apos;&#x0D;&#x0A;- Original element: &apos;DemoInput.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.dev" element1="/src&lt;{DemoInput.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1564995110837" units="1" version="1.0"/>
+</session>

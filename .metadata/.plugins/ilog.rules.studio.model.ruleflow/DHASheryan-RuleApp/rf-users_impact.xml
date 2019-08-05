@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="917b46ee-6725-4488-84cb-32dd48697e79" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License (Active Facility)_Final Approval Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="8daeabba-b1cb-40fc-8ddf-0bff8bbbf667" path="rules/com/feestructure/facilityfees/Temporary Permit.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="1830b5a5-43fb-4d4f-becb-bfbddf202819" path="rules/com/feestructure/professionalfees/Renew Professional License_Expiry Penalty Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="f143010f-090f-4571-81b9-0b29156016c4" path="rules/com/feestructure/facilityfees/renew_facility_license/Renew Facility License_Renewal Active.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="43f8a024-35f1-4e21-b51a-8d099b402d40" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License (Active Facility)_Final Approval Fees Service Details.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="0fd79632-c173-49eb-a2f5-c1128e43a8a5" path="rules/com/feestructure/facilityfees/Set Facility Category.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="2c2fda50-c2ed-452a-a729-fffd7806c543" path="rules/com/claimcpdpoints/Set Required Points_Speciality.dta">
+        <UserFlow id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+    </Rule>
+    <Rule id="1b480500-d11a-43a8-a1f7-6a26661fe7c1" path="rules/com/feestructure/professionalfees/Print Duplicate License Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="a3291f9b-98a7-401d-8ef6-7e6b6f55e7cd" path="rules/com/issuesickleave/Check ICD-Specialist,Consultant,Registrar,UnderSupervision_NonInfectious.dta">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="0dca1062-5649-4437-9264-0ce93a91cb60" path="rules/com/feestructure/commonrules/Payment Of Fines In Installments_Remaining Cheques.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="62209042-3f12-465e-adbb-20fda813fb9e" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-24 Hour Facility,Pharmacy Drive Thru,Pharmacy Delivery,Social Media_AFL.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="29c2b9a2-2e71-436f-8a9d-fcca0225c4b3" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-Mobile Unit,Telehealth,Home Healthcare,Approved Practice Setting_Inspection Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531" path="rules/com/issuesickleave/Set Title Name-Specialist.brl">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="9c583564-ec56-49c7-99e7-e72b44b94db4" path="rules/com/feestructure/facilityfees/Request Medication Disposal or Transfer CD Certificate.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="001fdb9b-ddfd-489e-a2dc-76f77663ffcd" path="rules/com/feestructure/professionalfees/Update, Activate Professional Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="06867887-106c-42b9-9c0c-f86114232d17" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-Mobile Unit,Telehealth,Home Healthcare,Approved Practice Setting_AFL.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="3bf2845f-dfac-47e4-84e5-a408b3a8a6a5" path="rules/com/claimcpdpoints/Set Required Points_Title.dta">
+        <UserFlow id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+    </Rule>
+    <Rule id="cf2c28a1-3bc6-45d4-a73e-15572be64a53" path="rules/com/professionalassessmentrules/assessmentrules/Set Assessments-Dentist.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="bcee3778-6e15-48de-8da4-14703f01e9ac" path="rules/com/claimcpdpoints/Set Maximum Limit.dta">
+        <UserFlow id="815ac076-ef78-4954-8639-bdffb94c1454"/>
+    </Rule>
+    <Rule id="dfadef20-088e-437a-8c28-d18fcaab7128" path="rules/com/professionalassessmentrules/assessmentrules/Set Assessments-Allied Health.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="8d448a42-75b0-4855-af97-5fca90151b5e" path="rules/com/issuesickleave/Check ICD-General Practitioner,General Dentist_NonInfectious.dta">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="c8303942-819c-4096-bcfa-13dccdc9a329" path="rules/com/feestructure/facilityfees/activate_facility_license/Activate Facility License_Inspection Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="b89cf3f6-73a0-459c-a1ab-dd1efce496d2" path="rules/com/feestructure/facilityfees/activate_facility_license/Activate Facility License_License Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e" path="rules/com/feestructure/commonrules/Set Knowledge And Innovation Fees.brl">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="1d86a7de-ef62-4851-ae9a-446a7fae9f55" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License_Initial Approval_Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="15843b58-a2a2-4ce5-808a-326558202da0" path="rules/com/feestructure/facilityfees/Change Facility Name, Cancel Facility License, Change Ownership, Change Med Director Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c" path="rules/com/issuesickleave/Set Title Name-Consultant.brl">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="a509d357-8a6a-4396-83db-a1f51d943982" path="rules/com/feestructure/facilityfees/New Facility License_InitialApproval.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="101fdbf1-f0cb-4de7-9f5d-185be9cea655" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License (Active Facility)_Final Approval_Change Category Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="72bdc1c9-da7f-4c45-8eee-1925613d3c14" path="rules/com/feestructure/otherfees/Upgrade To Premium.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="80c4fba0-d0fa-4478-b589-ffd045611ad0" path="rules/com/professionalassessmentrules/assessmentrules/Set Assessments-Physician.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="53d9ed9a-5c8d-4c2e-ba83-6487faddad07" path="rules/com/professionalassessmentrules/assessmentrules/Set Assessments-Nurse.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="0566a5d2-dc2d-4b57-8345-570f17819ade" path="rules/com/professionalassessmentrules/assessmentrules/Set Speciality Types-Physician.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5" path="rules/com/feestructure/Add Service Fees and Addons Fees.brl">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="cac63c80-98c8-4f62-b325-7cefd5a96789" path="rules/com/feestructure/otherfees/Set Final Purchase Products Fees.brl">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="4e900fed-334c-4a51-bd86-0584786cbbaa" path="rules/com/professionalassessmentrules/assessmentrules/Set Assessments-TCAM.dta">
+        <UserFlow id="25553d40-ac33-4424-93de-f106b8d88091"/>
+    </Rule>
+    <Rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444" path="rules/com/issuesickleave/Set Title Name-GP_GD.brl">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="3a06891c-3b24-422f-b96e-69775aaf324e" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License_Inactive Facility_Design Modification.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="3d56e3d2-4eca-49bc-8b1c-77259aa27033" path="rules/com/feestructure/facilityfees/activate_facility_license/Activate Facility License_Re-inspection Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="6db2510e-9a28-4b8a-b86c-253ec83b8a30" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License_Final Approval_AddRemove Action.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345" path="rules/com/issuesickleave/Set Title Name-Registrar.brl">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="a17b1d27-944f-4be8-95a1-33bdd1706151" path="rules/com/feestructure/commonrules/Payment Of Fines In Installments_First Cheques.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="9dc6ee5b-dba3-4e1c-b579-49a5f24f2774" path="rules/com/feestructure/facilityfees/Purchase Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888" path="rules/com/feestructure/Set Final Knowledge And Innovation Fee.brl">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="45dcd487-d843-458b-ba8e-0ff22fb83552" path="rules/com/feestructure/facilityfees/renew_facility_license/Renew Facility License_Renewal Delay Penalty (monthly).dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="18164556-2583-4a8a-8e91-6afc56ff741a" path="rules/com/feestructure/professionalfees/Set Professional Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="b4a08280-8266-448f-bc8b-8664b7442f9d" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-Mobile Unit,Telehealth,Home Healthcare,Approved Practice Setting.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="ce66ee7e-9b87-4978-a63c-ae86bb41cc70" path="rules/com/claimcpdpoints/Set Required Points_Category.dta">
+        <UserFlow id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+    </Rule>
+    <Rule id="02a93ef0-f992-4292-b8a6-b4ddf5a62b69" path="rules/com/feestructure/professionalfees/Renew Professional License Fee.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="0b05f0d2-d93c-44ad-9991-5de507d204d2" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-Mobile Unit,Telehealth,Home Healthcare,Approved Practice Setting_AFL Inspection Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="14b5ab81-1d1d-4da1-a6eb-e3ac43e743fa" path="rules/com/feestructure/otherfees/Purchase Products.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662" path="rules/com/feestructure/Set Service Fees.brl">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="191d6049-9860-49fe-a8e3-a51231523ad5" path="rules/com/issuesickleave/Check ICD-Specialist,Consultant,Registrar,UnderSupervision.dta">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="db7a866a-7b9a-479c-bc5d-9af8ff4c6b9a" path="rules/com/feestructure/facilityfees/renew_facility_license/Renew Facility License_Renewal Inactive License.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f" path="rules/com/issuesickleave/Set Title Name-UnderSupervision.brl">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Rule id="8b1698a4-d656-45f5-bd59-f25959389055" path="rules/com/feestructure/facilityfees/amend_facility_license/Amend Facility License (Active Facility)_Re-inspection Fees.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="ff4f9924-d0b6-415b-bfbb-bb315f1890b5" path="rules/com/feestructure/facilityfees/addon_fees/AddOn-24 Hour Facility,Pharmacy Drive Thru,Pharmacy Delivery,Social Media.dta">
+        <UserFlow id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+    </Rule>
+    <Rule id="fd97c38b-c05d-42c7-b6cb-efc9fbf5b23b" path="rules/com/issuesickleave/Check ICD-General Practitioner,General Dentist.dta">
+        <UserFlow id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+    </Rule>
+    <Package id="com.riskrating.04-suspension">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.professionalsecuritycheckflag">
+        <UserFlow id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+    </Package>
+    <Package id="com.renewallicenseperiod">
+        <UserFlow id="557f673b-3204-43de-b98c-7e37fad12178"/>
+    </Package>
+    <Package id="com.riskrating.03-compliancehistory">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.maxFacilitySize">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.09-maturitylevel_accreditation">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.finalFacilitySize">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.02-violations">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.08-maturitylevel_automation">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.servicethreshold">
+        <UserFlow id="01012671-8b69-4710-99aa-f05d48e02465"/>
+    </Package>
+    <Package id="com.riskrating.10-totalriskscore">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskratingresult">
+        <UserFlow id="b5c03fc8-8749-474c-ae82-242d9d28beb0"/>
+    </Package>
+    <Package id="com.riskrating.00-groupidentification">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.upgradepositions">
+        <UserFlow id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+    </Package>
+    <Package id="com.riskrating.05-renewalcompliance">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.parttimematrix">
+        <UserFlow id="21b252b9-3776-46f5-af9f-856c941532e2"/>
+    </Package>
+    <Package id="com.riskrating.07-sick_leave_prescriptions">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.11-finalriskrating">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.professionaleligibility">
+        <UserFlow id="7dd99a26-5700-4f2b-8b30-d7eb96e298b3"/>
+    </Package>
+    <Package id="com.supervisedtitles">
+        <UserFlow id="c8638b09-89d5-4ce9-8b65-657551de8427"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.group5">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.serviceeligibility">
+        <UserFlow id="69558130-169a-493e-a119-0add7b120ed9"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.group4">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.group3">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.group2">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.riskrating.01-facilitysize.group1">
+        <UserFlow id="325bf646-0791-4619-87da-6be88a3ae673"/>
+    </Package>
+    <Package id="com.facilitymapping">
+        <UserFlow id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+    </Package>
+    <Package id="com.eligibilitymatrix">
+        <UserFlow id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+    </Package>
+</ImpactedElements>

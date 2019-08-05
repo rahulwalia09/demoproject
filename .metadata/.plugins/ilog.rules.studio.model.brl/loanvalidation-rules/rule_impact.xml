@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="loan.Report">
+            <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/yearlyIncome/GETTER#0">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+        </vocElt>
+        <vocElt id="loan.Loan/amount/GETTER#0">
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+        </vocElt>
+        <vocElt id="loan.Loan/yearlyRepayment/GETTER#0">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0">
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+        </vocElt>
+        <vocElt id="loan.Report/addCorporateScore(int)/COLLECTION_ADD#0">
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+        </vocElt>
+        <vocElt id="loan.Loan">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/ssn/GETTER#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/serialNumber/GETTER#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        </vocElt>
+        <vocElt id="loan.Report/insuranceRequired/PREDICATE_SETTER#0">
+            <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+        </vocElt>
+        <vocElt id="loan.Report/approveLoan(java.lang.String)/ACTION#0">
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+        </vocElt>
+        <vocElt id="loan.LoanUtil/formattedAmount(double)/NAVIGATION#0">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+        </vocElt>
+        <vocElt id="loan.Report/approved/PREDICATE#0">
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+        </vocElt>
+        <vocElt id="loan.Loan/numberOfMonthlyPayments/GETTER#0">
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        </vocElt>
+        <vocElt id="loan.Report/rejectLoan(java.lang.String)/ACTION#0">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+        </vocElt>
+        <vocElt id="loan.Loan/yearlyInterestRate/GETTER#0">
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        </vocElt>
+        <vocElt id="loan.Report/grade/GETTER#0">
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+        </vocElt>
+        <vocElt id="loan.LoanUtil/getMonthlyRepayment(double,int,double)/NAVIGATION#0">
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        </vocElt>
+        <vocElt id="loan.LoanUtil/containsOnlyDigits(java.lang.String)/NAVIGATION#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/groupCode/GETTER#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/lastName/GETTER#0">
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+        </vocElt>
+        <vocElt id="loan.Report/insuranceRate/SETTER#0">
+            <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+        </vocElt>
+        <vocElt id="loan.Loan/monthlyRepayment/SETTER#0">
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        </vocElt>
+        <vocElt id="loan.Report/corporateScore/SETTER#0">
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/creditScore/GETTER#0">
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </vocElt>
+        <vocElt id="loan.Borrower">
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/age/GETTER#0">
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+        </vocElt>
+        <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/digits/GETTER#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/zipCode/GETTER#0">
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower/ssn/GETTER#0"/>
+            <vocElt id="loan.Borrower.SSN/serialNumber/GETTER#0"/>
+            <vocElt id="loan.Borrower.SSN/groupCode/GETTER#0"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower.SSN/digits/GETTER#0"/>
+            <vocElt id="loan.LoanUtil/containsOnlyDigits(java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0"/>
+        </rule>
+        <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/lastName/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c">
+            <vocElt id="loan.Loan"/>
+            <vocElt id="loan.Loan/amount/GETTER#0"/>
+            <vocElt id="loan.Loan/numberOfMonthlyPayments/GETTER#0"/>
+            <vocElt id="loan.Loan/yearlyInterestRate/GETTER#0"/>
+            <vocElt id="loan.Loan/monthlyRepayment/SETTER#0"/>
+            <vocElt id="loan.LoanUtil/getMonthlyRepayment(double,int,double)/NAVIGATION#0"/>
+        </rule>
+        <rule id="e9e5332f-91e9-423b-a151-479342a1273e">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower/zipCode/GETTER#0"/>
+        </rule>
+        <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Loan"/>
+            <vocElt id="loan.Loan/amount/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower/ssn/GETTER#0"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0"/>
+        </rule>
+        <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/age/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/corporateScore/SETTER#0"/>
+            <vocElt id="loan.Borrower/creditScore/GETTER#0"/>
+        </rule>
+        <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Report/insuranceRequired/PREDICATE_SETTER#0"/>
+            <vocElt id="loan.Report/insuranceRate/SETTER#0"/>
+        </rule>
+        <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/hasLatestBankrupcy()/PREDICATE#0"/>
+            <vocElt id="loan.Report/addCorporateScore(int)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6">
+            <vocElt id="loan.Borrower/yearlyIncome/GETTER#0"/>
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Loan"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Loan/yearlyRepayment/GETTER#0"/>
+            <vocElt id="loan.LoanUtil/formattedAmount(double)/NAVIGATION#0"/>
+            <vocElt id="loan.Report/rejectLoan(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="21118909-aff0-4291-a5e3-7195786e2f98">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Report/approveLoan(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Report/approved/PREDICATE#0"/>
+            <vocElt id="loan.Report/rejectLoan(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Report/grade/GETTER#0"/>
+        </rule>
+        <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectLoan(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower/creditScore/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="loan">
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+        </param>
+        <param id="report">
+            <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </param>
+        <param id="borrower">
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c">
+            <param id="loan"/>
+        </rule>
+        <rule id="e9e5332f-91e9-423b-a151-479342a1273e">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85">
+            <param id="loan"/>
+            <param id="report"/>
+        </rule>
+        <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1">
+            <param id="report"/>
+            <param id="borrower"/>
+        </rule>
+        <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8">
+            <param id="report"/>
+        </rule>
+        <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6">
+            <param id="loan"/>
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="21118909-aff0-4291-a5e3-7195786e2f98">
+            <param id="report"/>
+        </rule>
+        <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+        <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+        <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+        <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+        <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+        <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+        <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+        <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+        <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+        <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+    </projectTable>
+    <variableTable/>
+    <ruleVocFileTable>
+        <vocFile file="/loanvalidation-rules/bom/model_en.voc" id="88203ba6-6c19-471c-830b-998c27a0bb58">
+            <rule id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+            <rule id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+            <rule id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+            <rule id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+            <rule id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+            <rule id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+            <rule id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+            <rule id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+            <rule id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+            <rule id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+            <rule id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+            <rule id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+            <rule id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/loanvalidation-rules/rules/computation/neverBankruptcy.brl" id="534d02a5-04c9-4ed8-bba6-2ae9e06f62e4"/>
+        <resource file="/loanvalidation-rules/rules/validation/loan/checkAmount.brl" id="4ea46ef8-70ef-4d39-8603-ee5d4feb4a85"/>
+        <resource file="/loanvalidation-rules/rules/validation/borrower/checkAge.brl" id="2f099cc3-f21d-4ff6-bdba-cc47dd5816b2"/>
+        <resource file="/loanvalidation-rules/rules/computation/repayment.brl" id="1611d7f9-ce18-4e8c-b031-9a5b3d0e190c"/>
+        <resource file="/loanvalidation-rules/rules/computation/initialCorporateScore.brl" id="c78f4169-9115-41b1-81ee-76ccec9aa8c1"/>
+        <resource file="/loanvalidation-rules/rules/eligibility/checkIncome.brl" id="b6f05462-f5cd-4c20-8693-3f00c405c4c6"/>
+        <resource file="/loanvalidation-rules" id="f30e70c2-fee8-4e9d-a6fa-3a8e94e726b8"/>
+        <resource file="/loanvalidation-rules/rules/validation/borrower/checkZipcode.brl" id="e9e5332f-91e9-423b-a151-479342a1273e"/>
+        <resource file="/loanvalidation-rules/rules/eligibility/approval.brl" id="21118909-aff0-4291-a5e3-7195786e2f98"/>
+        <resource file="/loanvalidation-rules/rules/validation/borrower/checkSSNdigits.brl" id="f39a4567-13b6-419d-a498-ec4830d1ca16"/>
+        <resource file="/loanvalidation-rules/rules/validation/borrower/checkName.brl" id="e474b60b-bcf4-45ec-ab56-d6b5ba2fbd87"/>
+        <resource file="/loanvalidation-rules/rules/insurance/defaultInsurance.brl" id="96e84595-2d4a-493b-b3b5-828df4a86bf8"/>
+        <resource file="/loanvalidation-rules/rules/validation/borrower/checkSSNareanumber.brl" id="e17d3dd1-bac9-4500-8e3f-2d1d9a282869"/>
+        <resource file="/loanvalidation-rules/rules/eligibility/checkCreditScore.brl" id="11772160-9aa8-48ee-8c0c-41754ef6d566"/>
+    </resourceTable>
+</impactTables>

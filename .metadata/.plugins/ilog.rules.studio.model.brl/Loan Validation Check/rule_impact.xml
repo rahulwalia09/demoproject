@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="loan.Report">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest">
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/groupCode/GETTER#0">
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/lastName/GETTER#0">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+        </vocElt>
+        <vocElt id="loan.LoanRequest/amount/GETTER#0">
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/ssn/GETTER#0">
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/serialNumber/GETTER#0">
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+        <vocElt id="loan.Borrower">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/age/GETTER#0">
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+        </vocElt>
+        <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/digits/GETTER#0">
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+        <vocElt id="loan.LoanUtil/containsOnlyDigits(java.lang.String)/NAVIGATION#0">
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+        <vocElt id="loan.Borrower/zipCode/GETTER#0">
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </vocElt>
+        <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0">
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/lastName/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="b0361335-f157-4660-a3dc-146c8e301ddb">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Borrower/age/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower/ssn/GETTER#0"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0"/>
+        </rule>
+        <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower/ssn/GETTER#0"/>
+            <vocElt id="loan.Borrower.SSN/serialNumber/GETTER#0"/>
+            <vocElt id="loan.Borrower.SSN/groupCode/GETTER#0"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower.SSN/digits/GETTER#0"/>
+            <vocElt id="loan.LoanUtil/containsOnlyDigits(java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="loan.Borrower.SSN/areaNumber/GETTER#0"/>
+        </rule>
+        <rule id="e9c4e688-8ece-4347-bc80-59347e408398">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.LoanRequest"/>
+            <vocElt id="loan.LoanRequest/amount/GETTER#0"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57">
+            <vocElt id="loan.Report"/>
+            <vocElt id="loan.Borrower"/>
+            <vocElt id="loan.Report/rejectData(java.lang.String)/ACTION#0"/>
+            <vocElt id="loan.Borrower/zipCode/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="loan">
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+        </param>
+        <param id="report">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </param>
+        <param id="borrower">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="b0361335-f157-4660-a3dc-146c8e301ddb">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+        <rule id="e9c4e688-8ece-4347-bc80-59347e408398">
+            <param id="loan"/>
+            <param id="report"/>
+        </rule>
+        <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57">
+            <param id="borrower"/>
+            <param id="report"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="3abc737a-ba41-4dcf-a7d1-012b9484f9f8">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Loan Validation Base/bom/model_en.voc" id="298ef717-efd8-4b46-9bfc-28f2f82612b0">
+            <rule id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+            <rule id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+            <rule id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+            <rule id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+            <rule id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+            <rule id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Loan Validation Check/rules/validation/borrower/checkName.brl" id="c5b9e0ce-c668-4a77-9f0a-8ea444e459e0"/>
+        <resource file="/Loan Validation Check/rules/validation/borrower/checkSSNdigits.brl" id="85980264-7328-45e2-bc8b-fc8dbbf429c9"/>
+        <resource file="/Loan Validation Check/rules/validation/borrower/checkAge.brl" id="b0361335-f157-4660-a3dc-146c8e301ddb"/>
+        <resource file="/Loan Validation Check/rules/validation/borrower/checkZipcode.brl" id="f7871a3e-5f1e-4d7d-b235-4e6129919c57"/>
+        <resource file="/Loan Validation Check/rules/validation/borrower/checkSSNareanumber.brl" id="3d0baca6-b708-4be4-893a-fa988452dfb9"/>
+        <resource file="/Loan Validation Check/rules/validation/loan/checkAmount.brl" id="e9c4e688-8ece-4347-bc80-59347e408398"/>
+    </resourceTable>
+</impactTables>

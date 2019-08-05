@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceCode/GETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfRoomScore/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.HelperClass/convertToDouble(int)/NAVIGATION#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/SETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse/totalScorePercentage/SETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/knowledgeInnovationFees/SETTER#0">
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingRequest">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/suspensionWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.HelperClass/setFacilitySizeParam(int,int,int,int)/ACTION#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FacilitySize/noOfRooms/GETTER#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/serviceEligibility/PREDICATE_SETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingRequest/facilitySize/GETTER#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/deliveryFees/GETTER#0">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingResponse/unlicensedPrivileges/SETTER#0">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalKIFees/GETTER#0">
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FacilitySize/noOfBeds/GETTER#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfSpecialitieWeight/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest/service/GETTER#0">
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/renewalComplianceScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/complianceHistoryWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalFee/GETTER#0">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/addOnServFee/GETTER#0">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfProfessionalWeight/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/finalComplianceHistoryScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalFee/SETTER#0">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/accountStatus/GETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorCode/SETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/suspensionScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/blackPointWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfSpecialitieScore/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceType/GETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/facilitySizeScore/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest">
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/sickLeavePrescriptionsWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingRequest">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/facilityCategoryScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalAddonFees/GETTER#0">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfBedScore/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/renewalComplianceWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/SETTER#0">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/sickLeavePrescriptionsScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAccreditationScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0">
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/facilityCategoryWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/vatAmount/GETTER#0">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingResponse">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfProfessionalScore/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAutomationScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/complianceHistoryScore/GETTER#0">
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfBedWeight/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/noOfRoomWeight/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureHelper/convertToDouble(java.lang.String)/NAVIGATION#0">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalAddonFees/SETTER#0">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse/finalScore/SETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorType/SETTER#0">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAutomationWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/GETTER#0">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAccreditationWeight/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/GETTER#0">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FacilitySize/noOfProfessionals/GETTER#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalFees/GETTER#0">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureHelper/convertToString(java.lang.Double)/NAVIGATION#0">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalFees/SETTER#0">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureHelper/checkServiceName(java.lang.String,com.feestructure.FeeStructureRequest)/NAVIGATION#0">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FacilitySize/noOfSpecialities/GETTER#0">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingRequest/facilityCategoryCode/GETTER#0">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/finalBlackPointScore/GETTER#0">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="75dea57a-1216-4afc-b0c2-b59080739745">
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceCode/GETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/serviceEligibility/PREDICATE_SETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/accountStatus/GETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorType/SETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorCode/SETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceType/GETTER#0"/>
+        </rule>
+        <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911">
+            <vocElt id="com.riskrating.RiskRatingRequest"/>
+            <vocElt id="com.riskrating.FacilitySize/noOfBeds/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingRequest/facilitySize/GETTER#0"/>
+            <vocElt id="com.riskrating.FacilitySize/noOfSpecialities/GETTER#0"/>
+            <vocElt id="com.riskrating.HelperClass/setFacilitySizeParam(int,int,int,int)/ACTION#0"/>
+            <vocElt id="com.riskrating.FacilitySize/noOfProfessionals/GETTER#0"/>
+            <vocElt id="com.riskrating.FacilitySize/noOfRooms/GETTER#0"/>
+        </rule>
+        <rule id="ccf2baba-fa00-4639-8095-01afc069067c">
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfRoomScore/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfSpecialitieWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/SETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfProfessionalScore/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfBedScore/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfSpecialitieScore/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfProfessionalWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfBedWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/noOfRoomWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/facilitySizeScore/GETTER#0"/>
+        </rule>
+        <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b">
+            <vocElt id="com.riskrating.Score/complianceHistoryScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score"/>
+        </rule>
+        <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5">
+            <vocElt id="com.feestructure.FeeStructureResponse/totalAddonFees/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFee/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToString(java.lang.Double)/NAVIGATION#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalAddonFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFees/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+        </rule>
+        <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789">
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFee/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToString(java.lang.Double)/NAVIGATION#0"/>
+            <vocElt id="com.feestructure.FeeStructureRequest"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/vatAmount/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureHelper/checkServiceName(java.lang.String,com.feestructure.FeeStructureRequest)/NAVIGATION#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFees/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/deliveryFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFee/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToDouble(java.lang.String)/NAVIGATION#0"/>
+        </rule>
+        <rule id="17d828b8-905f-4529-9e82-d1cb767541b6">
+            <vocElt id="com.riskrating.Score/sickLeavePrescriptionsWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.HelperClass/convertToDouble(int)/NAVIGATION#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse/finalScore/SETTER#0"/>
+            <vocElt id="com.riskrating.Score/renewalComplianceScore/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse/totalScorePercentage/SETTER#0"/>
+            <vocElt id="com.riskrating.Score/facilityCategoryScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/complianceHistoryWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAutomationWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/suspensionWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAccreditationWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/renewalComplianceWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score"/>
+            <vocElt id="com.riskrating.Score/finalComplianceHistoryScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/sickLeavePrescriptionsScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAccreditationScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/facilityCategoryWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse"/>
+            <vocElt id="com.riskrating.Score/suspensionScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/blackPointWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAutomationScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/finalBlackPointScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/facilitySizeScore/GETTER#0"/>
+        </rule>
+        <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e">
+            <vocElt id="com.feestructure.FeeStructureRequest/service/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureRequest"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/knowledgeInnovationFees/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+        </rule>
+        <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662">
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToString(java.lang.Double)/NAVIGATION#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/addOnServFee/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToDouble(java.lang.String)/NAVIGATION#0"/>
+        </rule>
+        <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888">
+            <vocElt id="com.feestructure.FeeStructureHelper/convertToString(java.lang.Double)/NAVIGATION#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/knowledgeInnovationFees/SETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/totalKIFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+        </rule>
+        <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b">
+            <vocElt id="com.facilitymapping.FacilityMappingResponse"/>
+            <vocElt id="com.facilitymapping.FacilityMappingRequest"/>
+            <vocElt id="com.facilitymapping.FacilityMappingResponse/unlicensedPrivileges/SETTER#0"/>
+            <vocElt id="com.facilitymapping.FacilityMappingRequest/facilityCategoryCode/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="issuesickleaverequest">
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+        </param>
+        <param id="serviceEligibilityResponse">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </param>
+        <param id="fee">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+        </param>
+        <param id="facilityMappingRequest">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </param>
+        <param id="feeRequest">
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </param>
+        <param id="feeKI">
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+        </param>
+        <param id="complainceCount">
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="8d378ece-0047-403d-928a-feffd3f2e9ee"/>
+        </param>
+        <param id="serviceEligibilityRequest">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        </param>
+        <param id="complainceScore">
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="8d378ece-0047-403d-928a-feffd3f2e9ee"/>
+        </param>
+        <param id="title">
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+        </param>
+        <param id="feeResponse">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        </param>
+        <param id="facilityMappingResponse">
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </param>
+        <param id="riskRatingResponse">
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </param>
+        <param id="riskRatingRequest">
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        </param>
+        <param id="score">
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        </param>
+        <param id="addOnInspFee">
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="75dea57a-1216-4afc-b0c2-b59080739745">
+            <param id="serviceEligibilityResponse"/>
+            <param id="serviceEligibilityRequest"/>
+        </rule>
+        <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911">
+            <param id="riskRatingRequest"/>
+        </rule>
+        <rule id="ccf2baba-fa00-4639-8095-01afc069067c">
+            <param id="score"/>
+        </rule>
+        <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b">
+            <param id="score"/>
+            <param id="complainceCount"/>
+            <param id="complainceScore"/>
+        </rule>
+        <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5">
+            <param id="feeKI"/>
+            <param id="feeResponse"/>
+            <param id="addOnInspFee"/>
+        </rule>
+        <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789">
+            <param id="feeRequest"/>
+            <param id="feeResponse"/>
+        </rule>
+        <rule id="17d828b8-905f-4529-9e82-d1cb767541b6">
+            <param id="score"/>
+            <param id="riskRatingResponse"/>
+        </rule>
+        <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444">
+            <param id="issuesickleaverequest"/>
+            <param id="title"/>
+        </rule>
+        <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e">
+            <param id="feeRequest"/>
+            <param id="feeResponse"/>
+        </rule>
+        <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345">
+            <param id="issuesickleaverequest"/>
+            <param id="title"/>
+        </rule>
+        <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662">
+            <param id="fee"/>
+            <param id="feeResponse"/>
+            <param id="addOnInspFee"/>
+        </rule>
+        <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531">
+            <param id="issuesickleaverequest"/>
+            <param id="title"/>
+        </rule>
+        <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f">
+            <param id="issuesickleaverequest"/>
+            <param id="title"/>
+        </rule>
+        <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c">
+            <param id="issuesickleaverequest"/>
+            <param id="title"/>
+        </rule>
+        <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888">
+            <param id="feeResponse"/>
+        </rule>
+        <rule id="8d378ece-0047-403d-928a-feffd3f2e9ee">
+            <param id="complainceCount"/>
+            <param id="complainceScore"/>
+        </rule>
+        <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b">
+            <param id="facilityMappingRequest"/>
+            <param id="facilityMappingResponse"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="08c8c6a2-cc3a-4ecc-a743-43d1e471f807">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="8d378ece-0047-403d-928a-feffd3f2e9ee"/>
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DHASheryan-BOM/bom/DHASheryanXOM_en_US.voc" id="5afae861-380d-4690-b88a-c8926499b4a7">
+            <rule id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+            <rule id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+            <rule id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+            <rule id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+            <rule id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+            <rule id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+            <rule id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+            <rule id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+            <rule id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+            <rule id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+            <rule id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+            <rule id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+            <rule id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+            <rule id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+            <rule id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+            <rule id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DHASheryan-RuleApp/rules/com/feestructure/Set Final Knowledge And Innovation Fee.brl" id="c407c39c-2ebc-4cf8-ab0f-a46089093888"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/03-compliancehistory/02-Aggregate Compliance Score.brl" id="548f1339-0228-4c44-81e4-5cc6d62fb58b"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/issuesickleave/Set Title Name-Registrar.brl" id="38aef84e-e7d1-47ee-a3f8-f1c45f83a345"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/issuesickleave/Set Title Name-Consultant.brl" id="0923fa39-7ee0-44b9-9732-d8d016c7789c"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/facilitymapping/Set Unlicensed Privileges.brl" id="bbd4ba1e-db92-498a-b072-1997a281ac4b"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/feestructure/commonrules/Set Knowledge And Innovation Fees.brl" id="1b49281c-e3c7-44eb-9c8e-4b4365802b2e"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/feestructure/Set Service Fees.brl" id="097c1a68-e0e6-48a3-8a64-e6edd1f1f662"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/serviceeligibility/Set Service Eligibility For No Service Code.brl" id="75dea57a-1216-4afc-b0c2-b59080739745"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/03-compliancehistory/03-Average Compliance Score.brl" id="8d378ece-0047-403d-928a-feffd3f2e9ee"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/01-facilitysize/maxFacilitySize/Set Maximum Facility Size.brl" id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        <resource file="/DHASheryan-RuleApp/rules/variableset.var" id="08c8c6a2-cc3a-4ecc-a743-43d1e471f807"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/issuesickleave/Set Title Name-Specialist.brl" id="1dacb768-4a58-482c-99ca-7cc67d5ca531"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/10-totalriskscore/Total Risk Score.brl" id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/feestructure/otherfees/Set Final Purchase Products Fees.brl" id="cac63c80-98c8-4f62-b325-7cefd5a96789"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/01-facilitysize/maxFacilitySize/Set Maximum Facility Size-Group 1.brl" id="c3b8b40f-ae28-44c4-99c7-e59526e80911"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/feestructure/Add Service Fees and Addons Fees.brl" id="268e4876-502a-41a2-8a8a-d2dca59a4cd5"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/01-facilitysize/finalFacilitySize/Final Risk Score For Facility Size.brl" id="ccf2baba-fa00-4639-8095-01afc069067c"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/issuesickleave/Set Title Name-UnderSupervision.brl" id="12185264-3a73-46cd-a3be-b6c3c2d62d3f"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/riskrating/09-totalriskscore/Total Risk Score.brl" id="17d828b8-905f-4529-9e82-d1cb767541b6"/>
+        <resource file="/DHASheryan-RuleApp/rules/com/issuesickleave/Set Title Name-GP_GD.brl" id="6ac8ce94-f3c3-49cd-9562-63fc4976e444"/>
+    </resourceTable>
+</impactTables>

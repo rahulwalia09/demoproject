@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variable Set</name>
+  <uuid>08a8fa05-ee62-404a-b897-e309852ce68e</uuid>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo-XOM
+Bundle-SymbolicName: Demo-XOM
+Bundle-Version: 1.0.0.qualifier

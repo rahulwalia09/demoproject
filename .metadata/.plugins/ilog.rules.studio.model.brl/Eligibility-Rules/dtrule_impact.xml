@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.dev.eligibility.EligibilityRequest/age/GETTER#0">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse/eligible/PREDICATE_SETTER#0">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7">
+            <vocElt id="com.dev.eligibility.EligibilityRequest/age/GETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse/eligible/PREDICATE_SETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="eligibilityRequest">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </param>
+        <param id="eligiblilityResponse">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </param>
+        <param id="value">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7">
+            <param id="eligibilityRequest"/>
+            <param id="eligiblilityResponse"/>
+            <param id="value"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="c373c3ab-470d-4d16-9802-aeb807e70e93">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Eligibility-BOM/bom/Eligibility-XOM_en_US.voc" id="29af5c38-6bcf-497c-910f-4fd3e0ebef77">
+            <rule id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Eligibility-Rules/rules/VariableSet.var" id="c373c3ab-470d-4d16-9802-aeb807e70e93"/>
+        <resource file="/Eligibility-Rules/rules/com/eligibility/Set Eligibility By Age.dta" id="b890e467-fa85-4c3b-95c7-c30908f0efb7"/>
+    </resourceTable>
+</impactTables>

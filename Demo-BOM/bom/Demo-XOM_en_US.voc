@@ -1,0 +1,12 @@
+# Vocabulary Properties
+uuid = 223716a1-f36b-45cb-afcd-46c494eb9a6f
+
+# com.dev.DemoInput
+com.dev.DemoInput#concept.label = demo input
+com.dev.DemoInput.num#phrase.action = set the num of {this} to {num}
+com.dev.DemoInput.num#phrase.navigation = {num} of {this}
+
+# com.dev.DemoOutput
+com.dev.DemoOutput#concept.label = demo output
+com.dev.DemoOutput.answer#phrase.action = set the answer of {this} to {answer}
+com.dev.DemoOutput.answer#phrase.navigation = {answer} of {this}

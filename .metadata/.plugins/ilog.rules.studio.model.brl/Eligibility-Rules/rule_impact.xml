@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.dev.eligibility.EligibilityRequest/age/GETTER#0">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse/eligible/PREDICATE_SETTER#0">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityRequest">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+        <vocElt id="com.dev.eligibility.EligibilityResponse/customerName/SETTER#0">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2">
+            <vocElt id="com.dev.eligibility.EligibilityRequest/age/GETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse/eligible/PREDICATE_SETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest/name/GETTER#0"/>
+            <vocElt id="com.dev.eligibility.EligibilityRequest"/>
+            <vocElt id="com.dev.eligibility.EligibilityResponse/customerName/SETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="eligibilityRequest">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </param>
+        <param id="eligiblilityResponse">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </param>
+        <param id="value">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2">
+            <param id="eligibilityRequest"/>
+            <param id="eligiblilityResponse"/>
+            <param id="value"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="c373c3ab-470d-4d16-9802-aeb807e70e93">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Eligibility-BOM/bom/Eligibility-XOM_en_US.voc" id="29af5c38-6bcf-497c-910f-4fd3e0ebef77">
+            <rule id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Eligibility-Rules/rules/VariableSet.var" id="c373c3ab-470d-4d16-9802-aeb807e70e93"/>
+        <resource file="/Eligibility-Rules/rules/com/eligibility/Set Eligibilty.brl" id="9b69770f-d511-44fa-b0e7-a43d96434ca2"/>
+    </resourceTable>
+</impactTables>

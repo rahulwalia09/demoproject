@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="da624d74-177a-429a-8148-e9e8bbe1de63" path="rules/Demo.brl">
+        <UserFlow id="ba5b13af-b860-4540-8bb8-74f3e936a1c5"/>
+    </Rule>
+</ImpactedElements>

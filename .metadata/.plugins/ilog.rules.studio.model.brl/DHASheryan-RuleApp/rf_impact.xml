@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceCode/GETTER#0">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessment">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.servicefinethreshold.ServiceThresholdResponse">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingRequest">
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessment/assessmentType/GETTER#0">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/suspensionWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.upgradeposition.UpgradePositionRequest/category/GETTER#0">
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        </vocElt>
+        <vocElt id="com.claimcpdpoints.ClaimCPDPointsRequest/category/GETTER#0">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </vocElt>
+        <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocElt>
+        <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodRequest/licenseType/GETTER#0">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.servicefinethreshold.ServiceThresholdResponse/fineThreshold/GETTER#0">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest/service/GETTER#0">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest/serviceType/GETTER#0">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/renewalComplianceScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/complianceHistoryWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.claimcpdpoints.ClaimCPDPointsRequest">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/finalComplianceHistoryScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodResponse">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocElt>
+        <vocElt id="com.claimcpdpoints.ClaimCPDPointsResponse">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </vocElt>
+        <vocElt id="com.professionalsecuritycheckflag.ProfessionalSecurityCheckFlagRequest/blacklistCountries/GETTER#0">
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/blackPointWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/suspensionScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.upgradeposition.UpgradePositionRequest">
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/facilitySizeScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest">
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/sickLeavePrescriptionsWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingRequest">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/title/GETTER#0">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.upgradeposition.UpgradePositionRequest/title/GETTER#0">
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorCode/GETTER#0">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/category/GETTER#0">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest/ICDcodes/GETTER#0">
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/renewalComplianceWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodResponse/renewalPeriod/GETTER#0">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocElt>
+        <vocElt id="com.professionalsecuritycheckflag.ProfessionalSecurityCheckFlagRequest">
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/sickLeavePrescriptionsScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAccreditationScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0">
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        </vocElt>
+        <vocElt id="com.issuesickleave.IssueSickLeaveRequest/requestedLeaveQuantity/GETTER#0">
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        </vocElt>
+        <vocElt id="com.eligibilitymatrix.EligibilityMatrixRequest">
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+        </vocElt>
+        <vocElt id="com.upgradeposition.UpgradePositionRequest/speciality/GETTER#0">
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        </vocElt>
+        <vocElt id="com.eligibilitymatrix.EligibilityMatrixRequest/facilityCategoryCode/GETTER#0">
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureRequest/serviceCode/GETTER#0">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.servicefinethreshold.ServiceThresholdRequest/serviceType/GETTER#0">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAutomationScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.claimcpdpoints.ClaimCPDPointsResponse/cpdAutoApprovalTime/GETTER#0">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </vocElt>
+        <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodRequest">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/speciality/GETTER#0">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.registerprofessional.RegisterProfessionalAssessment/assessmentName/GETTER#0">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse/riskRatingCategory/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.serviceeligibility.ServiceEligibilityRequest">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse/totalScorePercentage/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAutomationWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingRequest/facilityType/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/maturityLevelAccreditationWeight/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/GETTER#0">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.feestructure.FeeStructureResponse/totalFees/GETTER#0">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </vocElt>
+        <vocElt id="com.facilitymapping.FacilityMappingRequest/facilityCategoryCode/GETTER#0">
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+        </vocElt>
+        <vocElt id="com.servicefinethreshold.ServiceThresholdRequest">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </vocElt>
+        <vocElt id="com.riskrating.Score/finalBlackPointScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+        <vocElt id="com.riskrating.RiskRatingResponse/finalScore/GETTER#0">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df">
+            <vocElt id="com.claimcpdpoints.ClaimCPDPointsResponse"/>
+            <vocElt id="com.claimcpdpoints.ClaimCPDPointsRequest"/>
+            <vocElt id="com.claimcpdpoints.ClaimCPDPointsResponse/cpdAutoApprovalTime/GETTER#0"/>
+            <vocElt id="com.claimcpdpoints.ClaimCPDPointsRequest/category/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3">
+            <vocElt id="com.upgradeposition.UpgradePositionRequest/title/GETTER#0"/>
+            <vocElt id="com.upgradeposition.UpgradePositionRequest/speciality/GETTER#0"/>
+            <vocElt id="com.upgradeposition.UpgradePositionRequest/category/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.upgradeposition.UpgradePositionRequest"/>
+        </rule>
+        <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745">
+            <vocElt id="com.professionalsecuritycheckflag.ProfessionalSecurityCheckFlagRequest/blacklistCountries/GETTER#0"/>
+            <vocElt id="com.professionalsecuritycheckflag.ProfessionalSecurityCheckFlagRequest"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647">
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/title/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/requestedLeaveQuantity/GETTER#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest/ICDcodes/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.issuesickleave.IssueSickLeaveRequest"/>
+        </rule>
+        <rule id="325bf646-0791-4619-87da-6be88a3ae673">
+            <vocElt id="com.riskrating.Score/sickLeavePrescriptionsWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingRequest"/>
+            <vocElt id="com.riskrating.RiskRatingResponse/riskRatingCategory/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/renewalComplianceScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/complianceHistoryWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse/totalScorePercentage/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAutomationWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.FaciltiySizeScore/finalScoreOfFacilitySize/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/suspensionWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingRequest/facilityType/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAccreditationWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/renewalComplianceWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score"/>
+            <vocElt id="com.riskrating.Score/finalComplianceHistoryScore/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.riskrating.Score/sickLeavePrescriptionsScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAccreditationScore/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse"/>
+            <vocElt id="com.riskrating.Score/blackPointWeight/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/suspensionScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/maturityLevelAutomationScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/finalBlackPointScore/GETTER#0"/>
+            <vocElt id="com.riskrating.RiskRatingResponse/finalScore/GETTER#0"/>
+            <vocElt id="com.riskrating.Score/facilitySizeScore/GETTER#0"/>
+        </rule>
+        <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e">
+            <vocElt id="com.facilitymapping.FacilityMappingRequest"/>
+            <vocElt id="com.facilitymapping.FacilityMappingRequest/facilityCategoryCode/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="25553d40-ac33-4424-93de-f106b8d88091">
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/title/GETTER#0"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessment"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessment/assessmentType/GETTER#0"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/category/GETTER#0"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessmentServiceRequest/speciality/GETTER#0"/>
+            <vocElt id="com.registerprofessional.RegisterProfessionalAssessment/assessmentName/GETTER#0"/>
+        </rule>
+        <rule id="69558130-169a-493e-a119-0add7b120ed9">
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest/serviceCode/GETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityRequest"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse/errorCode/GETTER#0"/>
+            <vocElt id="com.serviceeligibility.ServiceEligibilityResponse"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="95695f36-b087-4f59-96fd-cbdb9802834e">
+            <vocElt id="com.eligibilitymatrix.EligibilityMatrixRequest"/>
+            <vocElt id="com.eligibilitymatrix.EligibilityMatrixRequest/facilityCategoryCode/GETTER#0"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="01012671-8b69-4710-99aa-f05d48e02465">
+            <vocElt id="com.servicefinethreshold.ServiceThresholdResponse"/>
+            <vocElt id="com.servicefinethreshold.ServiceThresholdRequest/serviceType/GETTER#0"/>
+            <vocElt id="com.servicefinethreshold.ServiceThresholdRequest"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.servicefinethreshold.ServiceThresholdResponse/fineThreshold/GETTER#0"/>
+        </rule>
+        <rule id="5239d804-8a1e-40e0-9d07-e9192b354511">
+            <vocElt id="com.feestructure.FeeStructureResponse/totalFees/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureRequest/service/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureRequest/serviceType/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureRequest"/>
+            <vocElt id="com.feestructure.FeeStructureRequest/serviceCode/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse/serviceFee/GETTER#0"/>
+            <vocElt id="com.feestructure.FeeStructureResponse"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="557f673b-3204-43de-b98c-7e37fad12178">
+            <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodResponse/renewalPeriod/GETTER#0"/>
+            <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodRequest"/>
+            <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodResponse"/>
+            <vocElt id="com.dha.DHALogger/trace(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.renewallicenseperiod.RenewalLicensePeriodRequest/licenseType/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="renewalLicensePeriodResponse">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </param>
+        <param id="registerProfessionalAssessmentServiceRequest">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </param>
+        <param id="registerProfAssessment">
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        </param>
+        <param id="professionalSecurityCheckFlagRequest">
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+        </param>
+        <param id="issuesickleaverequest">
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        </param>
+        <param id="serviceEligibilityResponse">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </param>
+        <param id="facilityMappingRequest">
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+        </param>
+        <param id="feeRequest">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </param>
+        <param id="claimCpdPointsRequest">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </param>
+        <param id="serviceEligibilityRequest">
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+        </param>
+        <param id="serviceFineThresholdRequest">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </param>
+        <param id="feeResponse">
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        </param>
+        <param id="riskRatingRequest">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </param>
+        <param id="riskRatingResponse">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </param>
+        <param id="score">
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        </param>
+        <param id="eligibilityMatrixRequest">
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+        </param>
+        <param id="upgradePositionRequest">
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        </param>
+        <param id="serviceFineThresholdResponse">
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+        </param>
+        <param id="claimCpdPointsResponse">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        </param>
+        <param id="renewalLicensePeriodRequest">
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df">
+            <param id="claimCpdPointsRequest"/>
+            <param id="claimCpdPointsResponse"/>
+        </rule>
+        <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3">
+            <param id="upgradePositionRequest"/>
+        </rule>
+        <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745">
+            <param id="professionalSecurityCheckFlagRequest"/>
+        </rule>
+        <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647">
+            <param id="issuesickleaverequest"/>
+        </rule>
+        <rule id="325bf646-0791-4619-87da-6be88a3ae673">
+            <param id="score"/>
+            <param id="riskRatingRequest"/>
+            <param id="riskRatingResponse"/>
+        </rule>
+        <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e">
+            <param id="facilityMappingRequest"/>
+        </rule>
+        <rule id="25553d40-ac33-4424-93de-f106b8d88091">
+            <param id="registerProfessionalAssessmentServiceRequest"/>
+            <param id="registerProfAssessment"/>
+        </rule>
+        <rule id="69558130-169a-493e-a119-0add7b120ed9">
+            <param id="serviceEligibilityResponse"/>
+            <param id="serviceEligibilityRequest"/>
+        </rule>
+        <rule id="95695f36-b087-4f59-96fd-cbdb9802834e">
+            <param id="eligibilityMatrixRequest"/>
+        </rule>
+        <rule id="01012671-8b69-4710-99aa-f05d48e02465">
+            <param id="serviceFineThresholdResponse"/>
+            <param id="serviceFineThresholdRequest"/>
+        </rule>
+        <rule id="5239d804-8a1e-40e0-9d07-e9192b354511">
+            <param id="feeRequest"/>
+            <param id="feeResponse"/>
+        </rule>
+        <rule id="557f673b-3204-43de-b98c-7e37fad12178">
+            <param id="renewalLicensePeriodResponse"/>
+            <param id="renewalLicensePeriodRequest"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="08c8c6a2-cc3a-4ecc-a743-43d1e471f807">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DHASheryan-BOM/bom/DHASheryanXOM_en_US.voc" id="5afae861-380d-4690-b88a-c8926499b4a7">
+            <rule id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+            <rule id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+            <rule id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+            <rule id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+            <rule id="325bf646-0791-4619-87da-6be88a3ae673"/>
+            <rule id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+            <rule id="25553d40-ac33-4424-93de-f106b8d88091"/>
+            <rule id="69558130-169a-493e-a119-0add7b120ed9"/>
+            <rule id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+            <rule id="01012671-8b69-4710-99aa-f05d48e02465"/>
+            <rule id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+            <rule id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DHASheryan-RuleApp/rules/RiskRatingRuleFlow.rfl" id="325bf646-0791-4619-87da-6be88a3ae673"/>
+        <resource file="/DHASheryan-RuleApp/rules/RenewalLicensePeriodRuleFlow.rfl" id="557f673b-3204-43de-b98c-7e37fad12178"/>
+        <resource file="/DHASheryan-RuleApp/rules/EligibilityMatrixRuleFlow.rfl" id="95695f36-b087-4f59-96fd-cbdb9802834e"/>
+        <resource file="/DHASheryan-RuleApp/rules/RegisterAssessmentRuleFlow.rfl" id="25553d40-ac33-4424-93de-f106b8d88091"/>
+        <resource file="/DHASheryan-RuleApp/rules/variableset.var" id="08c8c6a2-cc3a-4ecc-a743-43d1e471f807"/>
+        <resource file="/DHASheryan-RuleApp/rules/ProfessionalSecurityCheckFlagRuleFlow.rfl" id="a2f27de5-3d9a-46df-a852-16131e2e1745"/>
+        <resource file="/DHASheryan-RuleApp/rules/FacilityMappingRuleFlow.rfl" id="f604f4be-78eb-4e48-821f-d3a3d005ac3e"/>
+        <resource file="/DHASheryan-RuleApp/rules/FeeStructuresRuleFlow.rfl" id="5239d804-8a1e-40e0-9d07-e9192b354511"/>
+        <resource file="/DHASheryan-RuleApp/rules/ServiceEligibilityRuleFlow.rfl" id="69558130-169a-493e-a119-0add7b120ed9"/>
+        <resource file="/DHASheryan-RuleApp/rules/ClaimCPDPointsRuleFlow.rfl" id="b3fd595d-2f8b-4847-bf21-62b2a0a8a5df"/>
+        <resource file="/DHASheryan-RuleApp/rules/IssueSickLeaveRuleFlow.rfl" id="60dc6c71-1b8b-4863-80f1-5db9fbbba647"/>
+        <resource file="/DHASheryan-RuleApp/rules/UpgradePositionRuleFlow.rfl" id="e26bf15c-6689-43b5-9b60-e21936f2b3c3"/>
+        <resource file="/DHASheryan-RuleApp/rules/FinesThresholdRuleFlow.rfl" id="01012671-8b69-4710-99aa-f05d48e02465"/>
+    </resourceTable>
+</impactTables>
